@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB60A5AE206FED81000D80CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60A5AD206FED81000D80CC /* AppDelegate.swift */; };
+		EB60A5B0206FED81000D80CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60A5AF206FED81000D80CC /* ViewController.swift */; };
+		EB60A5B3206FED81000D80CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB60A5B1206FED81000D80CC /* Main.storyboard */; };
+		EB60A5B5206FED82000D80CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB60A5B4206FED82000D80CC /* Assets.xcassets */; };
+		EB60A5B8206FED82000D80CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB60A5B6206FED82000D80CC /* LaunchScreen.storyboard */; };
+		EB60A5C3206FED82000D80CC /* mobcomgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60A5C2206FED82000D80CC /* mobcomgameTests.swift */; };
+		EB60A5CE206FED82000D80CC /* mobcomgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60A5CD206FED82000D80CC /* mobcomgameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB60A5BF206FED82000D80CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB60A5A2206FED81000D80CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB60A5A9206FED81000D80CC;
+			remoteInfo = mobcomgame;
+		};
+		EB60A5CA206FED82000D80CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB60A5A2206FED81000D80CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB60A5A9206FED81000D80CC;
+			remoteInfo = mobcomgame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB60A5AA206FED81000D80CC /* mobcomgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobcomgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB60A5AD206FED81000D80CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB60A5AF206FED81000D80CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB60A5B2206FED81000D80CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB60A5B4206FED82000D80CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB60A5B7206FED82000D80CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB60A5B9206FED82000D80CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB60A5BE206FED82000D80CC /* mobcomgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobcomgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB60A5C2206FED82000D80CC /* mobcomgameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobcomgameTests.swift; sourceTree = "<group>"; };
+		EB60A5C4206FED82000D80CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB60A5C9206FED82000D80CC /* mobcomgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobcomgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB60A5CD206FED82000D80CC /* mobcomgameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobcomgameUITests.swift; sourceTree = "<group>"; };
+		EB60A5CF206FED82000D80CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB60A5A7206FED81000D80CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60A5BB206FED82000D80CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60A5C6206FED82000D80CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB60A5A1206FED81000D80CC = {
+			isa = PBXGroup;
+			children = (
+				EB60A5AC206FED81000D80CC /* mobcomgame */,
+				EB60A5C1206FED82000D80CC /* mobcomgameTests */,
+				EB60A5CC206FED82000D80CC /* mobcomgameUITests */,
+				EB60A5AB206FED81000D80CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB60A5AB206FED81000D80CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB60A5AA206FED81000D80CC /* mobcomgame.app */,
+				EB60A5BE206FED82000D80CC /* mobcomgameTests.xctest */,
+				EB60A5C9206FED82000D80CC /* mobcomgameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB60A5AC206FED81000D80CC /* mobcomgame */ = {
+			isa = PBXGroup;
+			children = (
+				EB60A5AD206FED81000D80CC /* AppDelegate.swift */,
+				EB60A5AF206FED81000D80CC /* ViewController.swift */,
+				EB60A5B1206FED81000D80CC /* Main.storyboard */,
+				EB60A5B4206FED82000D80CC /* Assets.xcassets */,
+				EB60A5B6206FED82000D80CC /* LaunchScreen.storyboard */,
+				EB60A5B9206FED82000D80CC /* Info.plist */,
+			);
+			path = mobcomgame;
+			sourceTree = "<group>";
+		};
+		EB60A5C1206FED82000D80CC /* mobcomgameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB60A5C2206FED82000D80CC /* mobcomgameTests.swift */,
+				EB60A5C4206FED82000D80CC /* Info.plist */,
+			);
+			path = mobcomgameTests;
+			sourceTree = "<group>";
+		};
+		EB60A5CC206FED82000D80CC /* mobcomgameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB60A5CD206FED82000D80CC /* mobcomgameUITests.swift */,
+				EB60A5CF206FED82000D80CC /* Info.plist */,
+			);
+			path = mobcomgameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB60A5A9206FED81000D80CC /* mobcomgame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB60A5D2206FED82000D80CC /* Build configuration list for PBXNativeTarget "mobcomgame" */;
+			buildPhases = (
+				EB60A5A6206FED81000D80CC /* Sources */,
+				EB60A5A7206FED81000D80CC /* Frameworks */,
+				EB60A5A8206FED81000D80CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobcomgame;
+			productName = mobcomgame;
+			productReference = EB60A5AA206FED81000D80CC /* mobcomgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB60A5BD206FED82000D80CC /* mobcomgameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB60A5D5206FED82000D80CC /* Build configuration list for PBXNativeTarget "mobcomgameTests" */;
+			buildPhases = (
+				EB60A5BA206FED82000D80CC /* Sources */,
+				EB60A5BB206FED82000D80CC /* Frameworks */,
+				EB60A5BC206FED82000D80CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB60A5C0206FED82000D80CC /* PBXTargetDependency */,
+			);
+			name = mobcomgameTests;
+			productName = mobcomgameTests;
+			productReference = EB60A5BE206FED82000D80CC /* mobcomgameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB60A5C8206FED82000D80CC /* mobcomgameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB60A5D8206FED82000D80CC /* Build configuration list for PBXNativeTarget "mobcomgameUITests" */;
+			buildPhases = (
+				EB60A5C5206FED82000D80CC /* Sources */,
+				EB60A5C6206FED82000D80CC /* Frameworks */,
+				EB60A5C7206FED82000D80CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB60A5CB206FED82000D80CC /* PBXTargetDependency */,
+			);
+			name = mobcomgameUITests;
+			productName = mobcomgameUITests;
+			productReference = EB60A5C9206FED82000D80CC /* mobcomgameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB60A5A2206FED81000D80CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jo15abb;
+				TargetAttributes = {
+					EB60A5A9206FED81000D80CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EB60A5BD206FED82000D80CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB60A5A9206FED81000D80CC;
+					};
+					EB60A5C8206FED82000D80CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB60A5A9206FED81000D80CC;
+					};
+				};
+			};
+			buildConfigurationList = EB60A5A5206FED81000D80CC /* Build configuration list for PBXProject "mobcomgame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB60A5A1206FED81000D80CC;
+			productRefGroup = EB60A5AB206FED81000D80CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB60A5A9206FED81000D80CC /* mobcomgame */,
+				EB60A5BD206FED82000D80CC /* mobcomgameTests */,
+				EB60A5C8206FED82000D80CC /* mobcomgameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB60A5A8206FED81000D80CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB60A5B8206FED82000D80CC /* LaunchScreen.storyboard in Resources */,
+				EB60A5B5206FED82000D80CC /* Assets.xcassets in Resources */,
+				EB60A5B3206FED81000D80CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60A5BC206FED82000D80CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60A5C7206FED82000D80CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB60A5A6206FED81000D80CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB60A5B0206FED81000D80CC /* ViewController.swift in Sources */,
+				EB60A5AE206FED81000D80CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60A5BA206FED82000D80CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB60A5C3206FED82000D80CC /* mobcomgameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60A5C5206FED82000D80CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB60A5CE206FED82000D80CC /* mobcomgameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB60A5C0206FED82000D80CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB60A5A9206FED81000D80CC /* mobcomgame */;
+			targetProxy = EB60A5BF206FED82000D80CC /* PBXContainerItemProxy */;
+		};
+		EB60A5CB206FED82000D80CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB60A5A9206FED81000D80CC /* mobcomgame */;
+			targetProxy = EB60A5CA206FED82000D80CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB60A5B1206FED81000D80CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB60A5B2206FED81000D80CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB60A5B6206FED82000D80CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB60A5B7206FED82000D80CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB60A5D0206FED82000D80CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB60A5D1206FED82000D80CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB60A5D3206FED82000D80CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mobcomgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo15abb.mobcomgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB60A5D4206FED82000D80CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mobcomgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo15abb.mobcomgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB60A5D6206FED82000D80CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mobcomgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo15abb.mobcomgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobcomgame.app/mobcomgame";
+			};
+			name = Debug;
+		};
+		EB60A5D7206FED82000D80CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mobcomgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo15abb.mobcomgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobcomgame.app/mobcomgame";
+			};
+			name = Release;
+		};
+		EB60A5D9206FED82000D80CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = mobcomgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo15abb.mobcomgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mobcomgame;
+			};
+			name = Debug;
+		};
+		EB60A5DA206FED82000D80CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = mobcomgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jo15abb.mobcomgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mobcomgame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB60A5A5206FED81000D80CC /* Build configuration list for PBXProject "mobcomgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB60A5D0206FED82000D80CC /* Debug */,
+				EB60A5D1206FED82000D80CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB60A5D2206FED82000D80CC /* Build configuration list for PBXNativeTarget "mobcomgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB60A5D3206FED82000D80CC /* Debug */,
+				EB60A5D4206FED82000D80CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB60A5D5206FED82000D80CC /* Build configuration list for PBXNativeTarget "mobcomgameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB60A5D6206FED82000D80CC /* Debug */,
+				EB60A5D7206FED82000D80CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB60A5D8206FED82000D80CC /* Build configuration list for PBXNativeTarget "mobcomgameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB60A5D9206FED82000D80CC /* Debug */,
+				EB60A5DA206FED82000D80CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB60A5A2206FED81000D80CC /* Project object */;
+}
