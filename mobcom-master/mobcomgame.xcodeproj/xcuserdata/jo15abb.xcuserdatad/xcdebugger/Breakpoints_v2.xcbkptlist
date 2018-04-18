@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobcomgame/ViewController.swift"
+            timestampString = "545241911.648034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobcomgame/endGameController.swift"
+            timestampString = "545248398.166927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "endGameController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mobcomgame.endGameController.replay.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "mobcomgame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/jo15abb/Mobile%20Computing/mobcom-master/mobcomgame/endGameController.swift"
+                  timestampString = "545248398.178959"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mobcomgame.endGameController.replay.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "mobcomgame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/jo15abb/Mobile%20Computing/mobcom-master/mobcomgame/endGameController.swift"
+                  timestampString = "545248398.181594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mobcomgame.endGameController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; mobcomgame.endGameController"
+                  moduleName = "mobcomgame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/jo15abb/Mobile%20Computing/mobcom-master/mobcomgame/endGameController.swift"
+                  timestampString = "545248398.183954"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mobcomgame.endGameController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;mobcomgame.endGameController&gt;"
+                  moduleName = "mobcomgame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/jo15abb/Mobile%20Computing/mobcom-master/mobcomgame/endGameController.swift"
+                  timestampString = "545248398.186222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobcomgame/GameViewController.swift"
+            timestampString = "545600547.8619879"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "playSound()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
