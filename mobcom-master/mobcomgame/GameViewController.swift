@@ -41,7 +41,6 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
     
     @IBOutlet weak var timer: UILabel!
     
-    weak var cars: UIImageView!
     
     
     var startInt = 3
@@ -62,6 +61,8 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
     
     var scoreArray: [UIImageView] = []
     
+    var recordData:String!
+    
     
     
     
@@ -78,6 +79,10 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
 
         
         car0view.myDelegate = self
+        
+        let userDefaults = Foundation.UserDefaults.standard
+        let value = userDefaults.string(forKey: "Record")
+        recordData = value
         
         
         //Road moving animation
@@ -149,6 +154,30 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
         if timerInt == 0{
             gameTimer.invalidate()
             
+            
+            if recordData == nil{
+                
+                let savedString = scoreNum.text
+                let userDefaults = Foundation.UserDefaults.standard
+                userDefaults.set(savedString, forKey: "Key")
+                
+            }else{
+                
+                let score:Int? = Int(scoreNum.text!)
+                let record:Int? = Int(recordData)
+                
+                if score! > record! {
+                    
+                    let savedString = scoreNum.text
+                    let userDefaults = Foundation.UserDefaults.standard
+                    userDefaults.set(savedString, forKey: "Record")
+                }
+                
+                
+            }
+            
+          
+            
             Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(GameViewController.endGame), userInfo: nil, repeats: false)
             
         }
@@ -157,7 +186,10 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
     
     func endGame(){
         
+        
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "endGame") as! endGameController
+        
+        vc.scoreData = scoreNum.text
         
         self.present(vc, animated: false, completion: nil)
     }
@@ -167,7 +199,6 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
         
         dynamicAnimator = UIDynamicAnimator(referenceView: self.view)
         dynamicItemBehaviour = UIDynamicItemBehavior(items: [])
-       // collisionBehaviour = UICollisionBehavior(items: [])
         
         
         
@@ -176,7 +207,7 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
             let delayTime = Double(self.forArray[i])
             let randomtimer = DispatchTime.now() + delayTime
             
-            let random = (Int(arc4random_uniform(UInt32(UIScreen.main.bounds.width))))
+            let random = arc4random_uniform(201) + 40
             
             
             DispatchQueue.main.asyncAfter(deadline: randomtimer){
@@ -199,9 +230,9 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
                 }
                 
                 self.scoreNum.text = String(self.newScore)
-                self.newScore = self.newScore + 2
+                self.newScore = self.newScore + 5
                 
-                cars.frame = CGRect(x: random, y:0, width: 30, height:50)
+                cars.frame = CGRect(x: Int(random), y:0, width: 40, height:60)
                 self.view.addSubview(cars)
                 
                 self.dynamicItemBehaviour.addItem(cars)

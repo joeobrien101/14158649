@@ -25,9 +25,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        highScore.layer.cornerRadius = 5.0
-        highScoreNumber.layer.cornerRadius = 5.0
+        
         startButton.layer.cornerRadius = 5.0
+        
         
         
         }
@@ -35,6 +35,22 @@ class ViewController: UIViewController {
     
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        // Used instead of load because load only gets called on first time app is opened
+        
+        let userDefaults = Foundation.UserDefaults.standard
+        let value = userDefaults.string(forKey: "Record")
+        
+        if(value == nil){
+            highScoreNumber.text = "0"
+            
+        
+        }else{
+            highScoreNumber.text = value
+            
+        }
+    }
    
     
 

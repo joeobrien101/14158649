@@ -12,10 +12,15 @@ class endGameController: UIViewController {
     
     @IBOutlet weak var replay: UIButton!
     
+    @IBOutlet weak var score: UILabel!
     @IBOutlet weak var backToMenu: UIButton!
+    
+    var scoreData:String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        score.text = scoreData
 
         // Do any additional setup after loading the view.
     }
@@ -32,14 +37,7 @@ class endGameController: UIViewController {
         self.presentingViewController?.dismiss(animated: false, completion: nil)
     }
     
-    @IBAction func backToMenu(_ sender: Any) {
-        self.dismiss(animated: false, completion: nil)
-        self.presentingViewController?.dismiss(animated: false, completion: nil)
-        
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "gameView") as! GameViewController
-        
-        self.present(vc, animated: false, completion: nil)
-    }
+    
     
     
 
