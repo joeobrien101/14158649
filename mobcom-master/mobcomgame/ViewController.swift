@@ -13,7 +13,6 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var startButton: UIButton!
     
     @IBOutlet weak var highScoreNumber: UILabel!
     @IBOutlet weak var highScore: UILabel!
@@ -25,8 +24,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        startButton.layer.cornerRadius = 5.0
         
         
         

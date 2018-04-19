@@ -21,12 +21,12 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
         self.collisionBehaviour.addBoundary(withIdentifier: "barrier" as
             NSCopying, for: UIBezierPath(rect: self.car0view.frame))
         
-        for thisCar in scoreArray{
-            if(car0view.frame.intersects(thisCar.frame)){
-                newScore = newScore - 2
-                self.scoreNum.text = String (self.newScore)
-            }
-        }
+//        for thisCar in scoreArray{
+//            if(car0view.frame.intersects(thisCar.frame)){
+//                newScore = newScore - 2
+//                self.scoreNum.text = String (self.newScore)
+//            }
+//        }
     }
     
     @IBOutlet weak var scoreNum: UILabel!
@@ -58,6 +58,8 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
     var collisionBehaviour: UICollisionBehavior!
     
     var player: AVAudioPlayer = AVAudioPlayer()
+    var explosionPlayer: AVAudioPlayer = AVAudioPlayer()
+
     
     var scoreArray: [UIImageView] = []
     
@@ -109,7 +111,7 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
                       UIImage(named: "road19.png")!,
                       UIImage(named: "road20.png")!]
         
-        roadImage.image = UIImage.animatedImage(with: imageArray, duration: 1)
+        roadImage.image = UIImage.animatedImage(with: imageArray, duration: 0.5)
         
         
         
@@ -246,23 +248,34 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
         }
     }
     
-//    func collisionBehavior(_ behavior: UICollisionBehavior, endedContactFor item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying?) {
-//        self.newScore -= 1
-//        print("Collision")
-//        
-////        let explosionPlayer = Bundle.main.path(forResource: "explosion", ofType: "mp3")
-////        
-////        do{
-////            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: explosionPlayer!) as URL)
-////        }
-////        catch{
-////            //ERROR
-////        }
-////        
-////        player.play()
-//
-//        
-//    }
+    func collisionBehavior(_ behavior: UICollisionBehavior, endedContactFor item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying?) {
+        self.newScore -= 2
+        
+        let audioPlayer = Bundle.main.path(forResource: "Explosion", ofType: "mp3")
+        
+        do{
+            try explosionPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPlayer!) as URL)
+        }
+        catch{
+            //ERROR
+        }
+        
+        explosionPlayer.play()
+        
+        var frm: CGRect = car0view.frame
+        let explosionpic = UIImageView(image: nil)
+        explosionpic.image = UIImage(named: "explosionpic.png")
+        explosionpic.frame = frm
+        self.view.addSubview(explosionpic)
+        
+        let when = DispatchTime.now() + 0.5
+        DispatchQueue.main.asyncAfter(deadline: when){
+            explosionpic.removeFromSuperview()
+        }
+
+
+        
+    }
     
     func playSound() {
         let audioPlayer = Bundle.main.path(forResource: "carstart3", ofType: "mp3")
@@ -282,7 +295,4 @@ class GameViewController: UIViewController, subviewDelegate, AVAudioPlayerDelega
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-    
 }

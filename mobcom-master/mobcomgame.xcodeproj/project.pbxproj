@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0E279C2089276A000E11D5 /* Gameover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB0E279B2089276A000E11D5 /* Gameover.jpg */; };
+		EB0E279E20892B96000E11D5 /* powerstart.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0E279D20892B96000E11D5 /* powerstart.png */; };
+		EB0E27A020893F6B000E11D5 /* Explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB0E279F20893F6B000E11D5 /* Explosion.mp3 */; };
+		EB0E27A2208944D9000E11D5 /* explosionpic.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0E27A1208944D9000E11D5 /* explosionpic.png */; };
 		EB465211207FCC960009408B /* carWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB465210207FCC960009408B /* carWallpaper.jpg */; };
 		EB60A5AE206FED81000D80CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60A5AD206FED81000D80CC /* AppDelegate.swift */; };
 		EB60A5B0206FED81000D80CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60A5AF206FED81000D80CC /* ViewController.swift */; };
@@ -69,6 +73,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0E279B2089276A000E11D5 /* Gameover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gameover.jpg; sourceTree = "<group>"; };
+		EB0E279D20892B96000E11D5 /* powerstart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerstart.png; sourceTree = "<group>"; };
+		EB0E279F20893F6B000E11D5 /* Explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Explosion.mp3; sourceTree = "<group>"; };
+		EB0E27A1208944D9000E11D5 /* explosionpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosionpic.png; sourceTree = "<group>"; };
 		EB465210207FCC960009408B /* carWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carWallpaper.jpg; sourceTree = SOURCE_ROOT; };
 		EB60A5AA206FED81000D80CC /* mobcomgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobcomgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB60A5AD206FED81000D80CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +179,8 @@
 			children = (
 				EBF46A1720850C4900551203 /* Images */,
 				EB60A5AD206FED81000D80CC /* AppDelegate.swift */,
+				EB0E279F20893F6B000E11D5 /* Explosion.mp3 */,
+				EB0E27A1208944D9000E11D5 /* explosionpic.png */,
 				EB60A5AF206FED81000D80CC /* ViewController.swift */,
 				EBB1A51C207CEB690093B918 /* GameViewController.swift */,
 				EBB1A51E207D00E30093B918 /* endGameController.swift */,
@@ -205,6 +215,8 @@
 		EBF46A1720850C4900551203 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EB0E279D20892B96000E11D5 /* powerstart.png */,
+				EB0E279B2089276A000E11D5 /* Gameover.jpg */,
 				EB60A5FB206FFB7D000D80CC /* road7.png */,
 				EB60A5FC206FFB7D000D80CC /* road8.png */,
 				EB60A5FD206FFB7D000D80CC /* road9.png */,
@@ -354,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0E27A2208944D9000E11D5 /* explosionpic.png in Resources */,
 				EB60A5EE206FF841000D80CC /* road2.png in Resources */,
 				EB60A5B8206FED82000D80CC /* LaunchScreen.storyboard in Resources */,
 				EB60A60F2070002D000D80CC /* car3.png in Resources */,
@@ -362,9 +375,11 @@
 				EB60A5F1206FF841000D80CC /* road5.png in Resources */,
 				EB60A606206FFB7D000D80CC /* road20.png in Resources */,
 				EB60A605206FFB7D000D80CC /* road19.png in Resources */,
+				EB0E27A020893F6B000E11D5 /* Explosion.mp3 in Resources */,
 				EB60A5F6206FF841000D80CC /* road13.png in Resources */,
 				EB60A5F7206FF841000D80CC /* road14.png in Resources */,
 				EBBBB5FE207A5FB900246684 /* replay.png in Resources */,
+				EB0E279C2089276A000E11D5 /* Gameover.jpg in Resources */,
 				EB60A5F2206FF841000D80CC /* road6.png in Resources */,
 				EB60A6122070002D000D80CC /* car6.png in Resources */,
 				EB60A5DC206FEE97000D80CC /* car0.png in Resources */,
@@ -381,6 +396,7 @@
 				EB60A6112070002D000D80CC /* car5.png in Resources */,
 				EB60A5F5206FF841000D80CC /* road12.png in Resources */,
 				EB60A5F9206FF841000D80CC /* road16.png in Resources */,
+				EB0E279E20892B96000E11D5 /* powerstart.png in Resources */,
 				EB60A5B5206FED82000D80CC /* Assets.xcassets in Resources */,
 				EB60A5B3206FED81000D80CC /* Main.storyboard in Resources */,
 				EB60A604206FFB7D000D80CC /* road18.png in Resources */,

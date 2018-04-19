@@ -37,53 +37,64 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.029831843470767616" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlU-ut-ozh">
-                                <rect key="frame" x="110.66666666666669" y="602" width="193" height="58"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="33"/>
-                                <state key="normal" title="Start Game!">
-                                    <color key="titleColor" red="1" green="0.019891490399700618" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="kJw-AR-OFx" kind="presentation" modalTransitionStyle="crossDissolve" id="6nA-OC-AWH"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jyb-ic-ptT">
                                 <rect key="frame" x="129.66666666666669" y="282" width="155.00000000000006" height="41"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="30"/>
-                                <color key="textColor" red="0.99192229783199881" green="0.98688282054189225" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.029831843470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hW-28-397">
+                                <rect key="frame" x="147" y="482" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="KvG-oy-CFC"/>
+                                    <constraint firstAttribute="height" constant="120" id="j2Y-TA-Qga"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="powerstart.png"/>
+                                <connections>
+                                    <segue destination="kJw-AR-OFx" kind="presentation" id="szT-Lc-Oq8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VDq-q9-oyQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3DO-sJ-FLT"/>
                             <constraint firstItem="Jyb-ic-ptT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5rh-kM-U0p"/>
+                            <constraint firstItem="VDq-q9-oyQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6bZ-YN-gZ1"/>
                             <constraint firstItem="H3Z-1F-uyD" firstAttribute="top" secondItem="Jyb-ic-ptT" secondAttribute="bottom" constant="39" id="72R-Ei-v93"/>
+                            <constraint firstItem="Jyb-ic-ptT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="74b-Ec-BMj"/>
                             <constraint firstItem="DQF-fC-IIu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="7hR-BX-wGs"/>
                             <constraint firstItem="DQF-fC-IIu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="80K-Ln-jhm"/>
                             <constraint firstItem="VDq-q9-oyQ" firstAttribute="top" secondItem="Sog-oE-kvU" secondAttribute="bottom" constant="38" id="A1v-37-84F"/>
-                            <constraint firstItem="OlU-ut-ozh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C5Q-rc-xlL"/>
                             <constraint firstItem="H3Z-1F-uyD" firstAttribute="top" secondItem="Jyb-ic-ptT" secondAttribute="bottom" constant="37" id="C8K-Bv-wfL"/>
+                            <constraint firstItem="H3Z-1F-uyD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C8z-Ze-joh"/>
                             <constraint firstItem="DQF-fC-IIu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="D4K-rR-bZA"/>
                             <constraint firstItem="Jyb-ic-ptT" firstAttribute="top" secondItem="VDq-q9-oyQ" secondAttribute="bottom" constant="170" id="I6f-m3-8UM"/>
+                            <constraint firstItem="VDq-q9-oyQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KRt-dT-ivL"/>
+                            <constraint firstItem="H3Z-1F-uyD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OyV-iX-jNU"/>
                             <constraint firstAttribute="trailing" secondItem="DQF-fC-IIu" secondAttribute="trailing" id="SMW-eg-rpY"/>
+                            <constraint firstItem="VDq-q9-oyQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sns-AH-GBO"/>
+                            <constraint firstItem="sZf-EY-QYn" firstAttribute="top" secondItem="7hW-28-397" secondAttribute="bottom" constant="134" id="Syi-6D-k1O"/>
+                            <constraint firstItem="Jyb-ic-ptT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tsm-mC-Pka"/>
                             <constraint firstItem="H3Z-1F-uyD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U9X-IF-6Uu"/>
                             <constraint firstItem="H3Z-1F-uyD" firstAttribute="centerX" secondItem="VDq-q9-oyQ" secondAttribute="centerX" id="WVq-oI-hxX"/>
-                            <constraint firstItem="sZf-EY-QYn" firstAttribute="top" secondItem="OlU-ut-ozh" secondAttribute="bottom" constant="76" id="Wct-F5-xPn"/>
-                            <constraint firstItem="OlU-ut-ozh" firstAttribute="centerX" secondItem="VDq-q9-oyQ" secondAttribute="centerX" id="wEH-XL-uGV"/>
+                            <constraint firstItem="H3Z-1F-uyD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZyB-3r-7LG"/>
+                            <constraint firstItem="7hW-28-397" firstAttribute="top" secondItem="H3Z-1F-uyD" secondAttribute="bottom" constant="52" id="lrg-57-dxf"/>
+                            <constraint firstItem="Jyb-ic-ptT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mH8-dz-xSG"/>
+                            <constraint firstItem="H3Z-1F-uyD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mTJ-AP-PjN"/>
+                            <constraint firstItem="Jyb-ic-ptT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ouh-Fn-NTX"/>
+                            <constraint firstItem="7hW-28-397" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sER-Ag-szG"/>
+                            <constraint firstItem="VDq-q9-oyQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yiK-pu-2tr"/>
                             <constraint firstItem="sZf-EY-QYn" firstAttribute="top" secondItem="DQF-fC-IIu" secondAttribute="bottom" id="z6l-oJ-4wZ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="highScore" destination="Jyb-ic-ptT" id="xOJ-fo-Q6t"/>
                         <outlet property="highScoreNumber" destination="H3Z-1F-uyD" id="vMd-gp-Ebs"/>
-                        <outlet property="startButton" destination="OlU-ut-ozh" id="tbc-3S-EqE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.39130434782609" y="123.09782608695653"/>
+            <point key="canvasLocation" x="116" y="122.78860569715144"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="Kz1-px-eIT">
@@ -199,15 +210,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyP-ER-OSE">
-                                <rect key="frame" x="192" y="452" width="30" height="70"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyP-ER-OSE">
+                                <rect key="frame" x="192" y="284" width="30" height="70"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="51"/>
                                 <color key="textColor" red="0.99177650100000003" green="1" blue="0.9795047455" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game_over.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vyw-x2-o60">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="338"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSW-nL-Q00">
                                 <rect key="frame" x="136" y="551" width="142" height="120"/>
                                 <constraints>
@@ -219,27 +227,30 @@
                                     <action selector="restartGame:" destination="LcE-lt-1mC" eventType="touchUpInside" id="wqE-Qp-lJG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODp-Gi-zSZ">
-                                <rect key="frame" x="162" y="397" width="90" height="47"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODp-Gi-zSZ">
+                                <rect key="frame" x="162" y="229" width="90" height="47"/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="34"/>
                                 <color key="textColor" red="0.99192229779999996" green="0.98688282049999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Gameover.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WjD-iS-N2B">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="WjD-iS-N2B" firstAttribute="top" secondItem="umc-jM-GGw" secondAttribute="top" id="1f7-rd-eOE"/>
                             <constraint firstItem="Vhn-Tv-KUB" firstAttribute="top" secondItem="umc-jM-GGw" secondAttribute="top" id="2BB-gb-IFK"/>
                             <constraint firstAttribute="trailing" secondItem="Vhn-Tv-KUB" secondAttribute="trailing" id="3wl-Xr-Tk7"/>
+                            <constraint firstItem="ODp-Gi-zSZ" firstAttribute="top" secondItem="WjD-iS-N2B" secondAttribute="bottom" constant="29" id="68c-z7-xSj"/>
                             <constraint firstItem="GyP-ER-OSE" firstAttribute="top" secondItem="ODp-Gi-zSZ" secondAttribute="bottom" constant="8" id="70T-09-eJ1"/>
                             <constraint firstItem="13F-iS-jYN" firstAttribute="top" secondItem="Vhn-Tv-KUB" secondAttribute="bottom" id="A9v-P8-fgB"/>
-                            <constraint firstItem="Vyw-x2-o60" firstAttribute="leading" secondItem="umc-jM-GGw" secondAttribute="leading" id="CTr-Fo-e7J"/>
                             <constraint firstItem="QSW-nL-Q00" firstAttribute="centerX" secondItem="umc-jM-GGw" secondAttribute="centerX" id="Jqx-AN-rVh"/>
-                            <constraint firstAttribute="trailing" secondItem="Vyw-x2-o60" secondAttribute="trailing" id="KTY-lx-qdn"/>
                             <constraint firstItem="QSW-nL-Q00" firstAttribute="top" secondItem="GyP-ER-OSE" secondAttribute="bottom" constant="29" id="Lai-W0-5fN"/>
+                            <constraint firstItem="WjD-iS-N2B" firstAttribute="leading" secondItem="umc-jM-GGw" secondAttribute="leading" id="M0G-lp-J2O"/>
                             <constraint firstItem="GyP-ER-OSE" firstAttribute="centerX" secondItem="umc-jM-GGw" secondAttribute="centerX" id="MCE-mB-vvj"/>
                             <constraint firstItem="ODp-Gi-zSZ" firstAttribute="centerX" secondItem="umc-jM-GGw" secondAttribute="centerX" id="Mgd-pb-eix"/>
-                            <constraint firstItem="Vyw-x2-o60" firstAttribute="top" secondItem="umc-jM-GGw" secondAttribute="top" id="NDF-1n-vWG"/>
-                            <constraint firstAttribute="bottom" secondItem="Vyw-x2-o60" secondAttribute="bottom" constant="398" id="VfI-VY-HrO"/>
+                            <constraint firstAttribute="trailing" secondItem="WjD-iS-N2B" secondAttribute="trailing" id="Tu8-OP-DUR"/>
                             <constraint firstItem="QSW-nL-Q00" firstAttribute="centerX" secondItem="umc-jM-GGw" secondAttribute="centerX" id="dcu-9N-D9v"/>
                             <constraint firstItem="GyP-ER-OSE" firstAttribute="centerX" secondItem="umc-jM-GGw" secondAttribute="centerX" id="f0T-Uy-xwX"/>
                             <constraint firstItem="ODp-Gi-zSZ" firstAttribute="centerX" secondItem="umc-jM-GGw" secondAttribute="centerX" id="fHe-T3-Pa1"/>
@@ -254,13 +265,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XrR-Pu-b6N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1571.0144927536232" y="122.28260869565219"/>
+            <point key="canvasLocation" x="1569.5652173913045" y="121.46739130434784"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Gameover.jpg" width="500" height="200"/>
         <image name="car0.png" width="382" height="757"/>
         <image name="carWallpaper.jpg" width="1080" height="1920"/>
-        <image name="game_over.jpg" width="450" height="338"/>
+        <image name="powerstart.png" width="300" height="300"/>
         <image name="replay.png" width="894" height="894"/>
     </resources>
 </document>
